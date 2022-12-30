@@ -1,0 +1,210 @@
+body {
+    background-image: url(../images/dbackG.jpg);
+    display: flex;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+
+.container {
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.4)), url(../images/background.jpg); */
+    background-size: cover;
+    width: 1000px;
+    height: 720px;
+    position: absolute;
+    left: auto;
+    top: 15%;
+}
+
+.container-inner {
+    width: 602px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+p {
+    color: #fff;
+    font-family: Verdana;
+    margin-bottom: 20px;
+}
+
+img {
+    margin: 40px auto;
+    display: block;
+    width: 600px;
+    height: 550px;
+    border: 1px solid black;
+}
+
+#map {
+    position: absolute;
+}
+#mapButtons {
+    position: absolute;
+}
+button {
+    background-color: rgba(12, 181, 233, 0.781);
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none; 
+}
+#mapIcon{
+    background-color: transparent;
+    background-image: url(../images/mapIcon2.png);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 31%;
+    top: 78%;
+}
+#inBox{
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(34, 168, 221, 0.6) ;
+}
+#omaoutput{
+    margin-bottom: 0;
+    font-size: 16px;
+}
+#input {
+    margin-top: 20px;
+}
+#vastaus1 {
+    width: 520px;
+    font-size: 80%;
+    margin-bottom: 8px;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 5px;
+    padding-bottom: 4px;
+
+}
+#vastaus2 {
+    font-size: 80%;
+    text-align: center;
+    vertical-align: middle;
+    width: 520px;
+    height: 30px;
+    border-radius: 5px;
+    padding-bottom: 4px;
+    margin-bottom: 8px;
+}
+#output{
+    margin-bottom: 20px;
+    padding-bottom: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#PosEND{
+    margin-bottom: 10px;
+}
+#Pos0 {
+    background-color: transparent;
+    font-weight: bolder;
+    position: absolute;
+    left: 205px;
+    top: 26px;
+    height: 50px;
+    width: 100px;
+}
+#Pos1 {
+    background-color: transparent;
+    font-weight: bolder;
+    position: absolute;
+    left: -415px;
+    top: 78px;
+    height: 50px;
+    width: 50px;
+}
+#Pos2 {
+    background-color: transparent;
+    font-weight: bolder;
+    position: absolute;
+    left: -195px;
+    top: 85px;
+    height: 50px;
+    width: 100px;
+}
+#Pos3 {
+    background-color: transparent;
+    font-weight: bolder;
+    position: absolute;
+    left: 70px;
+    top: -300px;
+}
+#Pos4 {
+    background-color: transparent;
+    font-weight: bolder;
+    position: absolute;
+    left: 80px;
+    top: 70px;
+}
+#Pos5 {
+    background-color: transparent;
+    font-weight: bolder;
+    position: absolute;
+    left: -254px;
+    top: -246px;
+}
+#Pos6 {
+    background-color: transparent;
+    font-weight: bolder;
+    position: absolute;
+    left: -40px;
+    top: 140px;
+}
+#Pos7 {
+    background-color: transparent;
+    font-weight: bolder;
+    position: absolute;
+    left: 50px;
+    top: -200px;
+}
+#Pos8 {
+    background-color: transparent;
+    font-weight: bolder;
+    position: absolute;
+    left: -185px;
+    top: -127px;
+    height: 50px;
+    width: 100px;
+}
+#Pos9 {
+    background-color: transparent;
+    font-weight: bolder;
+    position: absolute;
+    left: -422px;
+    top: 185px;
+    background-size: contain;
+}
+#Pos11 {
+    background-color: transparent;
+    font-weight: bolder;
+    position: absolute;
+    left: 150px;
+    top: -200px;
+    background-size: contain;
+}
+
+
+#mapState {
+    background-image: url(../images/adventureMap2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    height: 720px;
+    width: 1000px;
+}
+
+.bold {
+    font-weight: bold;
+}
